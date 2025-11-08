@@ -941,7 +941,7 @@ textarea {
             #6bc5ff,
             #3333ff,
             #ff00cc);
-    /* animation: spin 5s linear infinite; */
+    animation: spin 5s linear infinite;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     position: absolute;
 }
@@ -1353,7 +1353,7 @@ textarea {
 
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
 
     .banner-text {
         width: 100%;

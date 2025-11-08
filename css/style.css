@@ -747,6 +747,7 @@ textarea {
 
 .footer-list h3 {
     color: white;
+    margin-top: 0;
 }
 
 .footer-list ul {

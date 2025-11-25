@@ -546,6 +546,7 @@ body {
     float: left;
     box-shadow: 0 0 3px #80808073;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .email-svg {
@@ -747,7 +748,6 @@ textarea {
 
 .footer-list h3 {
     color: white;
-    margin-top: 0;
 }
 
 .footer-list ul {
@@ -765,11 +765,12 @@ textarea {
     text-decoration: none;
     color: #bbb6b6;
     font-size: 15px;
-    transition: 0.1s;
+    transition: 0.4s;
 }
 
 .footer-list ul li a:hover {
     color: #7e22d1;
+    padding-left: 8px;
 }
 
 .footer-bottom {
@@ -789,11 +790,15 @@ textarea {
     font-size: 14px;
 }
 
+.portfolio {
+    width: 100%;
+    float: left;
+}
+
 .portfolio-top {
     width: 53%;
     margin: 0 auto;
     text-align: center;
-    padding: 70px 0;
 }
 
 .portfolio-top p {
@@ -1028,7 +1033,7 @@ textarea {
     height: 70px;
     position: absolute;
     left: 0;
-    background: #ffffff87;
+    background: #ffffffd4;
     border-radius: 5px;
     top: 30px;
 
@@ -1331,6 +1336,7 @@ textarea {
     .header-button i {
         display: block;
         font-size: 20px;
+        margin-left: auto;
     }
 
     .menu ul {
@@ -1348,7 +1354,24 @@ textarea {
         background: red;
         width: 100%;
         top: 80px;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        padding-left: 10px;
+    }
 
+    .header-button button {
+        display: none;
+    }
+
+    .gradient-circle {
+        width: 380px;
+        height: 380px;
+    }
+
+    .banner-box {
+        width: 380px;
+        height: 380px;
     }
 
 }
@@ -1361,6 +1384,7 @@ textarea {
 
     .banner-img {
         width: 100%;
+        margin-top: 30px;
     }
 
     .about-top {
@@ -1440,18 +1464,18 @@ textarea {
     }
 
     .footer-list-last {
-        width: 60% !important;
+        width: 100% !important;
     }
 
-    .banner-box{
-        width: 300px;
-        height: 300px;
+    .gradient-circle {
+        width: 350px;
+        height: 350px;
     }
 
-    .gradient-circle{
-        width: 300px;
-        height: 300px;
+    .banner-box {
+        width: 350px;
+        height: 350px;
     }
 
-    
+
 }

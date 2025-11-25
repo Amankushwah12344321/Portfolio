@@ -1481,11 +1481,18 @@ textarea {
 }
 
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 576px) {
 
     .about-box0-2 {
         width: 100%;
     }
 
+    .skills-img-2{
+        width: 50%;
+    }
+    
+    
+
 
 }
+

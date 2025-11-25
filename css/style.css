@@ -1479,3 +1479,13 @@ textarea {
 
 
 }
+
+
+@media screen and (max-width: 567px) {
+
+    .about-box0-2 {
+        width: 100%;
+    }
+
+
+}

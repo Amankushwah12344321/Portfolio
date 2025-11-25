@@ -11,6 +11,8 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="images/favicon-removebg-preview.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
 </head>
@@ -21,59 +23,53 @@
         <div class="container">
             <div class="header-2">
                 <div class="logo">
-                    <a href="#">Aman Kushwah</a>
+                    <a data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" href="#">Aman Kushwah</a>
                 </div>
                 <div class="menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300"><a href="#Home">Home</a></li>
+                        <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"><a href="#about">About</a></li>
+                        <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700"><a href="#">Portfolio</a></li>
+                        <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900"><a href="#">Services</a></li>
+                        <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1100"><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="header-button">
-                    <button>Let's work Together</button>
+                    <button data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">Let's work Together</button>
                     <i class="fa fa-bars mobile-bar" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="banner">
+    <div class="banner" id="Home">
         <div class="container">
             <div class="banner-2">
                 <div class="banner-text">
                     <div class="banner-text-2">
-                        <h1>I'm <span>Aman Kushwah</span></h1>
-                        <h2>UI/UX Designer</h2>
-                        <p>With 2 years of experience, I design clean, user-friendly, and engaging digital experiences.
+                        <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">I'm <span>Aman Kushwah</span></h1>
+                        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">UI/UX Designer</h2>
+                        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">With 6 month of experience, I design clean, user-friendly, and engaging digital experiences.
                             My focus is on creating intuitive interfaces that enhance usability and deliver impactful
                             results for businesses and users alike.</p>
                         <div class="banner-buttons">
-                            <button>View My Work <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-                            <button class="download-cv"><i class="fa fa-download" aria-hidden="true"></i> Download
-                                CV</button>
+                            <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">View My Work <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                            <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900" class="download-cv">
+                                <a href="images/tailwindcss-icon.png" download>Downloa CV</a>
+                                <i class="fa fa-download" aria-hidden="true"></i> </button>
                         </div>
                         <div class="banner-projects">
-                            <div class="banner-projects-2">
+                            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" class="banner-projects-2">
                                 <h3>10+</h3>
                                 <p>Projects Completed</p>
                             </div>
-                            <div class="banner-projects-2">
-                                <h3>2+</h3>
-                                <p>Years Experience</p>
+                            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" class="banner-projects-2">
+                                <h3>6</h3>
+                                <p>Month Experience</p>
                             </div>
                         </div>
                     </div>
                     <div class="a2"></div>
-
-
-
-
-
-
-
                 </div>
                 <div class="banner-img">
                     <div class="banner-img-2">
@@ -84,9 +80,6 @@
                         <div class="animated-box"></div>
                         <div class="gradient-circle"></div>
                         <div class="a3"></div>
-
-
-
                     </div>
                 </div>
             </div>
@@ -96,16 +89,15 @@
 
     <div class="about">
         <div class="container">
-            <div class="about-top">
+            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300" class="about-top">
                 <h1>About Me</h1>
-                <p>I'm Aman Kushwah, a dedicated UI/UX Designer with 2 years of experience. Currently working at Agami
+                <p>I'm Aman Kushwah, a dedicated UI/UX Designer with 6 month of experience. Currently working at Agami
                     Technologies, I specialize in designing clean, user-friendly, and modern digital experiences that
                     help businesses grow and engage users effectively.</p>
             </div>
-
-            <div class="about-box">
+            <div class="about-box" id="about">
                 <div class="about-text">
-                    <div class="about-text-2">
+                    <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" class="about-text-2">
                         <h2>Designing Experiences That Connect</h2>
                         <p>My journey started as a Web Designer at NxtLife Technologies, and now as a UI/UX Designer at
                             Agami Technologies, I have worked on multiple live projects including Fusion24X7 (CRM),
@@ -133,14 +125,14 @@
                     </div>
                 </div>
                 <div class="about-img">
-                    <div class="about-img-2">
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" class="about-img-2">
                         <img src="images/about-img.webp" alt="">
                     </div>
                 </div>
             </div>
             <div class="about-box0">
                 <div class="about-box0-2">
-                    <div class="about-box0-3">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="about-box0-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-palette h-6 w-6 text-white" aria-hidden="true">
@@ -157,7 +149,7 @@
                     </div>
                 </div>
                 <div class="about-box0-2">
-                    <div class="about-box0-3">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" class="about-box0-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-palette h-6 w-6 text-white" aria-hidden="true">
@@ -174,7 +166,7 @@
                     </div>
                 </div>
                 <div class="about-box0-2">
-                    <div class="about-box0-3">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" class="about-box0-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-palette h-6 w-6 text-white" aria-hidden="true">
@@ -191,7 +183,7 @@
                     </div>
                 </div>
                 <div class="about-box0-2">
-                    <div class="about-box0-3">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900" class="about-box0-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-palette h-6 w-6 text-white" aria-hidden="true">
@@ -207,31 +199,20 @@
                         <p>Transforming ideas into visually compelling designs that resonate with target audiences.</p>
                     </div>
                 </div>
-
-
-
-
-
             </div>
         </div>
     </div>
 
     <div class="portfolio">
         <div class="container">
-            <div class="portfolio-top">
+            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300" class="portfolio-top">
                 <h1>My Portfolio</h1>
                 <p>A showcase of my latest live projects — blending creativity, strategy, and modern design to deliver
                     impactful experiences.</p>
-                <div class="portfolio-top-button">
-                    <button>All</button>
-                    <button>Web Design</button>
-                    <button>UI/UX</button>
-                    <button>E-Commerce</button>
-                </div>
             </div>
             <div class="port-box">
                 <div class="port-box-2">
-                    <div class="port-box-3">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="300" class="port-box-3">
                         <div class="img-box">
                             <img src="images/pexels-photo-1181675.webp" alt="">
                         </div>
@@ -247,7 +228,7 @@
                     </div>
                 </div>
                 <div class="port-box-2">
-                    <div class="port-box-3">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="port-box-3">
                         <div class="img-box">
                             <img src="images/pexels-photo-11.webp" alt="">
                         </div>
@@ -264,7 +245,7 @@
                     </div>
                 </div>
                 <div class="port-box-2">
-                    <div class="port-box-3">
+                    <div data-aos="zoom-in-left" data-aos-duration="1000" data-aos-delay="300" class="port-box-3">
                         <div class="img-box">
                             <img src="images/pexels-photo-1181675.webp" alt="">
                         </div>
@@ -281,7 +262,7 @@
                     </div>
                 </div>
                 <div class="port-box-2">
-                    <div class="port-box-3">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="300" class="port-box-3">
                         <div class="img-box">
                             <img src="images/pexels-photo22.webp" alt="">
                         </div>
@@ -299,7 +280,7 @@
                     </div>
                 </div>
                 <div class="port-box-2">
-                    <div class="port-box-3">
+                    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300" class="port-box-3">
                         <div class="img-box">
                             <img src="images/pexels-photo-33.webp" alt="">
                         </div>
@@ -321,7 +302,7 @@
 
     <div class="services">
         <div class="container">
-            <div class="services-top">
+            <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300" class="services-top">
                 <h1>My Services</h1>
                 <p>I help businesses and startups with creative, research-driven, and impactful design solutions. From
                     UI/UX and web design to branding and consultation, I deliver designs that connect with users and
@@ -329,7 +310,7 @@
             </div>
             <div class="services-box">
                 <div class="services-box-2">
-                    <div class="services-box-3">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="300" class="services-box-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-panels-top-left h-8 w-8 text-white" aria-hidden="true">
@@ -350,7 +331,7 @@
                     </div>
                 </div>
                 <div class="services-box-2">
-                    <div class="services-box-3">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="500" class="services-box-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-monitor h-8 w-8 text-white" aria-hidden="true">
@@ -370,7 +351,7 @@
                     </div>
                 </div>
                 <div class="services-box-2">
-                    <div class="services-box-3">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="700" class="services-box-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-smartphone h-8 w-8 text-white" aria-hidden="true">
@@ -389,7 +370,7 @@
                     </div>
                 </div>
                 <div class="services-box-2">
-                    <div class="services-box-3">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="900" class="services-box-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-palette h-8 w-8 text-white" aria-hidden="true">
@@ -414,7 +395,7 @@
                     </div>
                 </div>
                 <div class="services-box-2">
-                    <div class="services-box-3">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1100" class="services-box-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-layers h-8 w-8 text-white" aria-hidden="true">
@@ -436,7 +417,7 @@
                     </div>
                 </div>
                 <div class="services-box-2">
-                    <div class="services-box-3">
+                    <div data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1300" class="services-box-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                             class="lucide lucide-users h-8 w-8 text-white" aria-hidden="true">
@@ -456,67 +437,62 @@
                         <button>Get Started</button>
                     </div>
                 </div>
-
-
-
-
             </div>
             <div class="services-bottom">
-                <p>Need a custom solution? Let's discuss your project and find the best design approach.</p>
-                <button>Schedule a Consultation</button>
+                <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Need a custom solution? Let's
+                    discuss your project and find the best design approach.</p>
+                <button data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">Schedule a
+                    Consultation</button>
             </div>
         </div>
     </div>
 
     <div class="experience">
         <div class="container">
-            <div class="experience-top">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="experience-top">
                 <h1>Experience</h1>
                 <p>Built a strong foundation in problem-solving, data structures, and writing clean, maintainable code.
                 </p>
             </div>
             <div class="experience-box">
-                <h2 class="edu">Education Quality</h2>
-                <div class="experience-box-2">
+                <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" class="edu">Education Quality
+                </h2>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" class="experience-box-2">
                     <h1>1</h1>
                     <div class="experience-box-3">
                         <div class="exp-box exp-hover">
-                            <h2>B.com in Computer Science</h2>
+                            <h2>Bachelor of Commerce</h2>
                             <h4>Jiwaji University Gwalior</h4>
-                            <p>The training provided by universities in order to prepare people to work in various
-                                sectors of the economy or areas of culture.</p>
+                            <p>I have completed my education from Gwalior</p>
                         </div>
                     </div>
                 </div>
-                <div class="experience-box-20">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="700" class="experience-box-20">
                     <h1 class="exp0">2</h1>
                     <div class="experience-box-30">
                         <div class="exp-box0 exp00">
-                            <h2>Secondary School Education</h2>
-                            <h4>New Adarsh Secondary School</h4>
+                            <h2>Higher Secondary</h2>
+                            <h4>New Adarsh H.S. School | Gwalior</h4>
                             <p>Secondary education or post-primary education covers two phases on the International
                                 Standard Classification of Education scale.</p>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
             <div class="experience-box">
-                <h2 class="edu">Job Experience</h2>
-                <div class="experience-box-2">
+                <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900" class="edu">Job Experience</h2>
+                <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100" class="experience-box-2">
                     <h1 class="edu-3">3</h1>
                     <div class="experience-box-3">
                         <div class="exp-box aman">
-                            <h2>UI/UX Designer</h2>
-                            <h4>Google Out Tech - (2017 - Present)</h4>
-                            <p>Google’s hiring process is an important part of our culture. Googlers care deeply about
-                                their teams and the people who make them up.</p>
+                            <h2>Web Designer</h2>
+                            <h4>NxtLife Technologies</h4>
+                            <p>I joined NxtLife technologies on 10 April 2025, where my role is to do
+                                Designing, Responsive websites, Converting design into HTML/CSS.</p>
                         </div>
                     </div>
                 </div>
-                <div class="experience-box-20">
+                <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1300" class="experience-box-20">
                     <h1 class="edu-4">4</h1>
                     <div class="experience-box-30">
                         <div class="exp-box0 aman-2">
@@ -533,13 +509,14 @@
             </div>
 
             <div class="skills">
-                <h2>My Skills</h2>
+                <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">My Skills</h2>
 
                 <div class="skills-main">
                     <div class="skills-images">
                         <div class="skills-img">
                             <div class="skills-img-2">
-                                <div class="skills-img-3">
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"
+                                    class="skills-img-3">
                                     <div class="skills-images-box">
                                         <img src="images/html-img.png" alt="">
                                     </div>
@@ -547,7 +524,8 @@
                                 </div>
                             </div>
                             <div class="skills-img-2">
-                                <div class="skills-img-3">
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
+                                    class="skills-img-3">
                                     <div class="skills-images-box">
                                         <img src="images/css3-img.png" alt="">
                                     </div>
@@ -555,7 +533,8 @@
                                 </div>
                             </div>
                             <div class="skills-img-2">
-                                <div class="skills-img-3">
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700"
+                                    class="skills-img-3">
                                     <div class="skills-images-box">
                                         <img src="images/bootstrap-img.png" alt="">
                                     </div>
@@ -563,7 +542,8 @@
                                 </div>
                             </div>
                             <div class="skills-img-2">
-                                <div class="skills-img-3">
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900"
+                                    class="skills-img-3">
                                     <div class="skills-images-box">
                                         <img src="images/jquery-img.png" alt="">
                                     </div>
@@ -571,28 +551,32 @@
                                 </div>
                             </div>
                             <div class="skills-img-2">
-                                <div class="skills-img-3">
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1100"
+                                    class="skills-img-3">
                                     <div class="skills-images-box">
                                         <img src="images/responsive-img.png" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="skills-img-2">
-                                <div class="skills-img-3">
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300"
+                                    class="skills-img-3">
                                     <div class="skills-images-box">
                                         <img src="images/photoshop.png" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="skills-img-2">
-                                <div class="skills-img-3">
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500"
+                                    class="skills-img-3">
                                     <div class="skills-images-box">
                                         <img src="images/figma.png" alt="">
                                     </div>
                                 </div>
                             </div>
                             <div class="skills-img-2">
-                                <div class="skills-img-3">
+                                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1700"
+                                    class="skills-img-3">
                                     <div class="skills-images-box">
                                         <img src="images/tailwindcss-icon.png" alt="">
                                     </div>
@@ -604,7 +588,8 @@
                         </div>
                     </div>
                     <div class="skills-my-img">
-                        <div class="skills-my-img-2">
+                        <div data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="300"
+                            class="skills-my-img-2">
                             <img src="images/banner-img.JPG" alt="">
                         </div>
                     </div>
@@ -625,14 +610,14 @@
 
     <div class="work">
         <div class="container">
-            <div class="work-top">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="work-top">
                 <h1>Let's Work Together</h1>
                 <p>Ready to bring your vision to life? Get in touch and let's create something amazing together.</p>
             </div>
             <div class="contact">
                 <div class="email-box">
                     <div class="email-box-2">
-                        <div class="email">
+                        <div data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="300" class="email">
                             <div class="email-svg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -650,7 +635,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="email">
+                        <div data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="500" class="email">
                             <div class="email-svg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -669,7 +654,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="email">
+                        <div data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="700" class="email">
                             <div class="email-svg">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -689,7 +674,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="whatsapp">
+                        <div data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="900" class="whatsapp">
                             <h3>Quick Response</h3>
                             <p>I typically respond to all inquiries within 24 hours.</p>
                             <button><i class="fa fa-whatsapp" aria-hidden="true"></i> Chat on Whatsapp</button>
@@ -697,7 +682,7 @@
                     </div>
                 </div>
                 <div class="name-box">
-                    <div class="name-box-2">
+                    <div data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="300" class="name-box-2">
                         <h2>Send Me a Message</h2>
                         <div class="message-50">
                             <div class="sms-name">
@@ -732,29 +717,39 @@
             <div class="footer-00">
                 <div class="footer-logo">
                     <div class="footer-logo-2">
-                        <div class="footer-logo-3">
+                        <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300" class="footer-logo-3">
                             <a href="#">Aman Kushwah</a>
                         </div>
-                        <p>UI/UX Designer & Web Designer with 2 years of experience, passionate about building modern,
+                        <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">UI/UX Designer & Web
+                            Designer with 2 years of experience, passionate about building modern,
                             user-friendly, and impactful digital experiences.</p>
                     </div>
                 </div>
                 <div class="footer-list">
-                    <h3>Quick Links</h3>
+                    <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">Quick Links</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"><a href="#">Home</a>
+                        </li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500"><a href="#">About</a>
+                        </li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700"><a
+                                href="#">Portfolio</a></li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900"><a href="#">Services</a>
+                        </li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100"><a href="#">Contact</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="footer-list footer-list-last">
-                    <h3>Contact Info</h3>
+                    <h3 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">Contact Info</h3>
                     <ul>
-                        <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> kushwahaman0178@gmail.com</a></li>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i> 91+ 6266216394</li>
-                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> Hazira, Gwalior (M.P.),India</li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1300"><a href="#"><i
+                                    class="fa fa-envelope-o" aria-hidden="true"></i>
+                                kushwahaman0178@gmail.com</a></li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500"><i class="fa fa-phone"
+                                aria-hidden="true"></i> 91+ 6266216394</li>
+                        <li data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1700"><i
+                                class="fa fa-map-marker" aria-hidden="true"></i> Hazira, Gwalior (M.P.),India</li>
                     </ul>
                 </div>
             </div>
@@ -765,6 +760,11 @@
     </div>
 
     <script src="js/jquery-3.7.1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 
     <script>
         $(document).ready(function () {
